@@ -26,7 +26,7 @@ export function ExcelViewer({ data, analysis, onDownload }: ExcelViewerProps) {
     <div className="space-y-4">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold">Merged Data</h2>
-        <Button onClick={onDownload} variant="outline">
+        <Button onClick={onDownload}>
           <Download className="mr-2 h-4 w-4" />
           Download Excel
         </Button>

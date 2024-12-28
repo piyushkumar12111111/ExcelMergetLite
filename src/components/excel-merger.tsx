@@ -123,7 +123,7 @@ export function ExcelMerger() {
               onChange={handleFileChange}
             />
             <label htmlFor="excel-files">
-              <Button variant="outline" className="w-full cursor-pointer" asChild>
+              <Button className="w-full cursor-pointer" asChild>
                 <div>
                   <Upload className="mr-2 h-4 w-4" />
                   Select Excel Files
