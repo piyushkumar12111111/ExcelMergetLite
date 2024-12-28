@@ -9,6 +9,10 @@ import { Progress } from "@/components/ui/progress"
 import { mergeExcelFiles } from "@/actions/excel"
 import { ExcelViewer } from "@/components/excel-viewer"
 
+interface SomeType {
+  [key: string]: unknown
+}
+
 export function ExcelMerger() {
   const [files, setFiles] = useState<File[]>([])
   const [progress, setProgress] = useState(0)
